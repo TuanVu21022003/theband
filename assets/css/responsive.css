@@ -1,0 +1,42 @@
+/* tablet  */
+@media(max-width: 63.9375em) and (min-width: 46.25em){  
+    /* chuyển từ 1023px -> 63.9375em  */
+    .row{
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+}
+
+/* mobile */
+@media(max-width: 46.1875em){
+    .row {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav>li{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+    #header .menu-mobile{
+        display: block;
+    }
+    .member-mobile{
+        width: 100%;
+    }
+    .ticket-mobile{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .body-col1{
+        width: 100%;
+        padding-bottom: 7%;
+    }
+    .body-col2{
+        width: 100%;
+    }
+}
